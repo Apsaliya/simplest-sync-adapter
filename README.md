@@ -3,7 +3,7 @@ The bare minimum code that one will have to write to build a working sync adapte
 
 # Know and remember when using SyncAdapters in your apps
 - You will have to compulsorily use the `AccountManager` framework of Android.
-- You will have to compulsorily declare `StubProvider` in your app unless you are using any of the Content providers provided by Android framework or any other Content provider accessible to your app. You
+- You will have to compulsorily declare `StubProvider` in your app if you are not using any of the Content providers provided by Android framework or any other Content provider accessible to your app. You
 may choose not to use it though and use your own database for content storage.
 
 
